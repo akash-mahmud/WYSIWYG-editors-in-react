@@ -22,7 +22,7 @@ export default function Tiny() {
           plugins: [
             'advlist', 'autolink', 'lists', 'link', 'image', 'charmap', 'preview',
             'anchor', 'searchreplace', 'visualblocks', 'code', 'fullscreen',
-            'insertdatetime', 'media', 'table', 'code', 'help', 'wordcount','visualblocks','pagebreak', 'paste','print',
+            'insertdatetime', 'media', 'table', 'code', 'help', 'wordcount','visualblocks','pagebreak', 'paste','print','iframeEmbed',
 
 
 
@@ -30,8 +30,8 @@ export default function Tiny() {
           toolbar:` 'undo redo | blocks | insertfile' 
             'bold italic forecolor | alignleft aligncenter ' 
             'alignright alignjustify | bullist numlist outdent indent | ' 
-            'removeformat | help' | image | table | paste pastetext | advlist | autolink | lists | link  | charmap | preview |
-            anchor | searchreplace | visualblocks | code | fullscreen | pagebreak |
+            'removeformat | help' | image | table | paste pastetext iframeEmbed | advlist | autolink | lists | link  | charmap | preview |
+            anchor | searchreplace | visualblocks | code | fullscreen | pagebreak  |
             insertdatetime | media |   file | help | wordcount`,
           content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }',
 
